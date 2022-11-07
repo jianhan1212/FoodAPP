@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffee24"
+    android:gravity="center"
+    tools:context=".IntroActivity">
+
+    <ImageView
+        android:id="@+id/imageView_bland"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="02dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/page2" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_bland"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textView_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="210sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="10sp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="✰✯馬上加入會員,立即享受優惠✰✯"
+        android:textColor="#1060FF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
